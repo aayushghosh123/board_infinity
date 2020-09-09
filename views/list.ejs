@@ -1,0 +1,27 @@
+<%- include('includes/header') %>
+<link rel="stylesheet" href="/list.css">
+
+  <h1>TABLE</h1>
+  <table>
+    <thead>
+    <tr>
+      <th>Task name</th>
+      <th>Task description</th>
+      <th>Creator</th>
+      <th>Duration</th>
+      <th>Created At</th>
+    </tr>
+    </thead>
+    <% record.forEach(function(row) {%>
+      <tr>
+        <td><%= row.taskname %></td>
+        <td><%= row.taskdescription %></td>
+        <td><%= row.creator %></td>
+        <td><%= row.duration %></td>
+        <td><%= row.createat %></td>
+      </tr>
+    <% }) %>
+  </table>
+  <p>Return Home:- <a href="/">Home</a></p>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<%- include('includes/header') %>
+
+<link rel="stylesheet" href="/home.css">
+
+    <p>Backend Hackathon Problem</p>
+    <p>Name :- Aayush Ghosh</p>
+    <p>1729003(KIIT University)</p>
+    <section id="loginsignup">
+        <div class="split left">
+            <div class="centered">
+              <h2>Add</h2>
+              <div class="box">
+                <form action="/add" method="GET">
+                <input type="submit" class="homebutton" value="Add Here">
+                </form>
+            </div>
+            </div>
+          </div>
+          <div class="split right">
+            <div class="centered">
+              <h2>List</h2>
+              <div class="box">
+                <form action="/list" method="GET">
+                <input type="submit" class="homebutton" value="Show List">
+                </form>
+            </div>
+            </div>
+          </div>
+    </section>
+</body>
+</html>

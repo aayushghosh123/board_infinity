@@ -1,0 +1,51 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Comic Neue', cursive;
+    background: aqua;
+} */
+
+body{
+    font-family: 'Comic Neue', cursive;
+    background: aqua;
+    background-color: aquamarine;
+}
+
+.h1text {
+    color: white;
+    font-weight: 300px;
+    border-bottom: 5px solid #fff;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+  h1{
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 10px;}

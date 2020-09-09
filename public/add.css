@@ -1,0 +1,133 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Comic Neue', cursive;
+    background: aqua;
+} */
+
+body{
+    font-family: 'Comic Neue', cursive;
+    background: aqua;
+    background-color: aquamarine;
+}
+
+p{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+  /* h1{
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+  }*/
+
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 10px;}
+
+.signupbackground{
+    /* font-family: 'Comic Neue', cursive;
+    background: aqua;
+    background-color: aquamarine;
+    background-size: cover; */
+    /* height: 100vh; */
+    display: flex;
+}
+
+.signuptext{
+    margin-top: 45vh;
+    flex: 1;
+}
+
+.signupbox{
+    margin-top: 33vh;
+    flex: 1;
+}
+
+.signuptext{
+    margin-left: 10%;
+    font-weight: 300px;
+}
+
+.signupbox{
+    margin-left: 25%;
+}
+
+.signuptext h1{
+    font-size: 70px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.signuptext p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.signuptext p a{
+    color: #fff;
+    font-weight: 700;
+}
+
+.signupform{
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+input{
+    margin: 20px 0;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.taskname, .taskdescription, .creator, .createdAt{
+    border-bottom: 1px solid #fff;
+}
+
+.button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+}
+
+.button:hover{
+    background: #fff;
+    color: #000;
+}

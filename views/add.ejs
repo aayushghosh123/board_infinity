@@ -1,0 +1,33 @@
+<%- include('includes/header') %>
+
+<link rel="stylesheet" href="/add.css">
+
+    <div class="signupbackground">
+        <div class="signuptext">
+            <h1>Enter data</h1>
+            <!-- <p>Click Here:- <a href="/list">Here</a></p> -->
+        </div>
+        <div class="signupbox">
+            <form class="signupform" action="/list" method="POST">
+                <input type="text" class="taskname" name="task" placeholder="Task Name" required>
+                <input type="text" class="taskdescription" name="taskd" placeholder=" Task Description" required>
+                <input type="text" class="creator" name="create" placeholder="Creator" required>
+                <!-- <input type="time" class="time" name="time"placeholder="Time" required> -->
+                <input type="text" class="createdAt" name="createat"placeholder="Created At" required>
+                <input type="submit" class="button" value="Submit">
+            </form>
+        </div>
+    </div>
+    <p>Return Home:- <a href="/">Home</a></p>
+</body>
+</html>
+
+
+
+<!-- <ul id="item-list" class="list-group pb-5">
+    ${items.map(function(item){
+        return `<li class="list-group-item list-group-item-action d-flex align-items-center justify-content-between">
+        <span class="item-text">${item.text}</span>
+      </li>`
+    }).join('')}
+  </ul> -->
